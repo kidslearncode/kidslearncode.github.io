@@ -6,6 +6,8 @@
     max-width: 75px;
 }
 
+*{scroll-behavior: smooth;}
+
 @media only screen and (min-width:575px){
     .nav-link {
         font-size: 1.25vw;
@@ -30,17 +32,6 @@
     font-size: 2vw;
 }
 
-.title-text{
-    font-size: 3vw;
-    color: #2b5d68;
-}
-
-.content-text{
-    font-size: 2vw;
-    margin-right: 10px;
-    margin-left:  10px;
-}
-
 @media only screen and (min-width: 768px){
     .flex-content{
         height:fit-content;
@@ -49,7 +40,28 @@
         flex-direction: row;
         justify-content: center;
     }
+
+    .flex-content > div > p {
+        font-size: 2vw;
+        padding: 10px;
+    }
+
+    .content-text{
+        font-size: 2vw;
+        margin-right: 10px;
+        margin-left:  10px;
+    }
+
+    .title-text{
+        font-size: 3vw;
+        color: #2b5d68;
+    }
+
+    .navbar-nav-text-heading{
+        font-size: 3vw;
+    }
 }
+
 
 @media only screen and (max-width: 768px){
     .flex-content{
@@ -59,12 +71,32 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    .flex-content > div > p {
+        font-size: 4vw;
+        padding: 10px;
+    }
+    
+    .flex-content > div > h1 {
+        padding-top: 20%;
+    }
+
+    .content-text{
+        font-size: 4vw;
+        margin-right: 10px;
+        margin-left:  10px;
+    }
+
+    .title-text{
+        font-size: 5vw;
+        color: #2b5d68;
+    }
+
+    .navbar-nav-text-heading{
+        font-size: 0vw;
+    }
 }
 
-.flex-content > div > p {
-    font-size: 2vw;
-    padding: 10px;
-}
 
 @media only screen and (min-width:800px){
 .flex-content > img {
@@ -76,7 +108,9 @@
 .flex-content > img {
     width:  25%;
     height: auto;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
+
+
 }
 }
 
@@ -180,4 +214,4 @@ img, figure {
     scroll-behavior: smooth;
 }
 
-*{scroll-behavior: smooth;}
+
