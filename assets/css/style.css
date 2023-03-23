@@ -2,11 +2,16 @@
 .logo {
     width:15vw; 
     height:15vw;
-    max-height: 75px;
-    max-width: 75px;
+    max-height: 40px;
+    max-width: 40px;
 }
 
-*{scroll-behavior: smooth;}
+*{
+    scroll-behavior: smooth;
+    align-items:center;
+    text-align: center;
+}
+
 
 @media only screen and (min-width:575px){
     .nav-link {
@@ -58,10 +63,9 @@
     }
 
     .navbar-nav-text-heading{
-        font-size: 3vw;
+        font-size: 1vw;
     }
 }
-
 
 @media only screen and (max-width: 768px){
     .flex-content{
@@ -104,15 +108,90 @@
     height: auto;
     padding: 20px;
 }
-
-.flex-content > img {
-    width:  25%;
-    height: auto;
-    padding-bottom: 50px;
-
-
 }
+
+.content {
+    width:100%;
+    height: fit-content;
+    text-align: center;
+    opacity:1;
+    background-color: #dfe9eb;
+    padding-left: 10%;
+    padding-right: 10%;
+    scroll-behavior: smooth;
 }
+
+.content-white {
+    width:100%;
+    height: fit-content;
+    text-align: center;
+    opacity:1;
+    background-color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+    scroll-behavior: smooth;
+}
+
+.footer-img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.footer-blank {
+    width: 10vw;
+    height: 5vw;
+}
+
+.flex-footer-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Home Page Styling */
 .KLC-header-big-picture {
@@ -201,17 +280,6 @@
 }
 img, figure {
     max-width: 100%;
-}
-
-#content {
-    width:100%;
-    height: fit-content;
-    text-align: center;
-    opacity:1;
-    background-color: #dfe9eb;
-    padding-left: 10%;
-    padding-right: 10%;
-    scroll-behavior: smooth;
 }
 
 
