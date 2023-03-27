@@ -65,6 +65,11 @@
     .navbar-nav-text-heading{
         font-size: 1vw;
     }
+
+    .footer-blank {
+        width: 10vw;
+        height: 5vw;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -98,6 +103,11 @@
 
     .navbar-nav-text-heading{
         font-size: 0vw;
+    }
+
+    .footer-blank {
+        width: 0vw;
+        height: 0vw;
     }
 }
 
@@ -134,11 +144,6 @@
 
 .footer-img {
     width: 5vw;
-    height: 5vw;
-}
-
-.footer-blank {
-    width: 10vw;
     height: 5vw;
 }
 
@@ -198,7 +203,7 @@
     position: relative;
     text-align: center;
     color: black;
-    height: 852px;
+    height: 90vh;
     width: 100vw;
 }
 
@@ -224,7 +229,7 @@
     }}
 
 .header-pic {
-    height: 900px;
+    height: 96.5vh;
     width: 100%;
     opacity:0.2;
     object-fit: cover
