@@ -90,6 +90,11 @@ p {
         padding-top: 20%;
     }
 
+    .flex-content > p {
+        font-size: 5vw;
+        padding: 10px;
+    }
+
     .content-text{
         font-size: 4vw;
         margin-right: 10px;
@@ -117,6 +122,10 @@ p {
     width:  50%;
     height: auto;
     padding: 20px;
+}
+.flex-content > p {
+    font-size: 1vw;
+    padding: 10px;
 }
 }
 
