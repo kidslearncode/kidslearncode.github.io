@@ -162,9 +162,18 @@ p {
     scroll-behavior: smooth;
 }
 
-.footer-img {
-    width: 3vw;
-    height: 3vw;
+@media only screen and (min-width: 768px){
+    .footer-img {
+        width: 3vw;
+        height: 3vw;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .footer-img {
+        width: 5vw;
+        height: 5vw;
+    }
 }
 
 .flex-footer-img {
@@ -278,7 +287,7 @@ img, figure {
     max-width: 100%;
 }
 
-/* Contact Page Unique Styling*/
+/* Contact Page Unique Styling */
 .contact-text {
     text-align: left;
     font-size: inherit;
@@ -286,4 +295,19 @@ img, figure {
 
 .contact-text > li {
     text-align: left;
+}
+
+/* Programme Page Unique Styling */
+
+.programme-flex-content > p {
+    font-size: 1vw;
+}
+
+.programme-p {
+    font-size: 1vw;
+}
+
+.programme-external-link {
+    color: inherit;
+    text-decoration: underline;
 }
