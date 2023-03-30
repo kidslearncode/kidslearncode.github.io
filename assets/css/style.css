@@ -1,4 +1,4 @@
-/* Global styling*/
+/* Global, Universal styling*/
 .logo {
     width:15vw; 
     height:15vw;
@@ -33,7 +33,7 @@
     }
 }
 
-.p {
+p {
     font-size: 2vw;
 }
 
@@ -142,9 +142,20 @@
     scroll-behavior: smooth;
 }
 
+.content-white-left {
+    width:100%;
+    height: fit-content;
+    text-align: left;
+    opacity:1;
+    background-color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+    scroll-behavior: smooth;
+}
+
 .footer-img {
-    width: 5vw;
-    height: 5vw;
+    width: 3vw;
+    height: 3vw;
 }
 
 .flex-footer-img {
@@ -153,52 +164,23 @@
     justify-content: center;
 }
 
+.KLC-header-big-picture-reg-page {
+    position: relative;
+    text-align: center;
+    color: black;
+    height: 20vh;
+    width: 100vw;
+    margin-top: 7.5vh;
+}
 
+.reg-header-pic {
+    height: 20vh;
+    width: 100%;
+    opacity:0.2;
+    object-fit: cover
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Home Page Styling */
+/* Home Page Unique Styling */
 .KLC-header-big-picture {
     position: relative;
     text-align: center;
@@ -287,4 +269,12 @@ img, figure {
     max-width: 100%;
 }
 
+/* Contact Page Unique Styling*/
+.contact-text {
+    text-align: left;
+    font-size: inherit;
+}
 
+.contact-text > li {
+    text-align: left;
+}
