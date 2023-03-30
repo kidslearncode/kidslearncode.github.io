@@ -177,13 +177,13 @@ p {
     position: relative;
     text-align: center;
     color: black;
-    height: 20vh;
+    height: 40vh;
     width: 100vw;
     margin-top: 7.5vh;
 }
 
 .reg-header-pic {
-    height: 20vh;
+    height: 40vh;
     width: 100%;
     opacity:0.2;
     object-fit: cover
