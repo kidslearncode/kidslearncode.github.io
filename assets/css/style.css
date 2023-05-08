@@ -91,8 +91,12 @@ p {
     }
 
     .flex-content > p {
-        font-size: 5vw;
+        font-size: 3vw;
         padding: 10px;
+    }
+
+    footer > div > p {
+        font-size: 3vw;
     }
 
     .content-text{
@@ -126,6 +130,10 @@ p {
 .flex-content > p {
     font-size: 1vw;
     padding: 10px;
+}
+
+footer > div > p {
+    font-size: 1vw;
 }
 }
 
