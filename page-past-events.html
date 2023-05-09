@@ -14,7 +14,7 @@
     <script src="assets/ex_libs/jQuery/jquery-3.6.4.slim.min.js"></script>
     <script src="assets/ex_libs/bootstrap_4/bootstrap.js"></script>
     </head>
-    <body>
+    <body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Logo -->
             <a class="navbar-brand" href="index.html">
@@ -38,8 +38,13 @@
                     <li>
                         <a class="nav-link disabled dash">-</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="page-events.html">Events</a>
+                    <li class="dropdown">
+                        <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#">Events
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li class="nav-item"><a class="nav-link" href="page-upcoming-events.html">Upcoming Events</a></li>
+                          <li class="nav-item"><a class="nav-link active" href="page-past-events.html">Past Events</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a class="nav-link disabled dash">-</a>
@@ -62,30 +67,41 @@
                 </ul>
             </div>
         </nav>
-        <div class="KLC-header-big-picture-reg-page">
+        <div class="KLC-header-big-picture-reg-page "style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
                 <img class="reg-header-pic" src="assets/images/event-header.png" alt="Home pic"/>
                 <div class="centered">
                     <h1 style = "font-size:5vw">Events</h1>
                 </div>
         </div> 
-        <footer>
-            <br><br><br>
+        <div class="content-white">
             <hr>
-            <div class="flex-content">
-                <div class="flex-footer-img">
-                    <a href="https://www.instagram.com/kids_learn_code/" target="_blank"><img class="footer-img" src="assets/footer_icons/ig.png"/></a>
-                    <a href="https://www.facebook.com/profile.php?id=100086648445513" target="_blank"><img class="footer-img" src="assets/footer_icons/fb.png"/></a>
-                    <a href="https://sg.linkedin.com/company/k-lc" target="_blank"><img class="footer-img" src="assets/footer_icons/in.png"/></a>
-                    <!--<a href="https://twitter.com/Kids_Learn_Code" target="_blank"><img class="footer-img" src="assets/footer_icons/tw.png"/></a>-->
-                    <img class="footer-blank" src="assets/footer_icons/blank.png"/>
+            <p style="color:#2b5d68;">
+                <div class="flex-content">
+                    <div>
+                        <img class="programme-pic" src="assets/images/past-event-scratch-1.png" alt="An Image of the Hour of Code website"/>
+                    </div>
+                    <div class="programme-flex-content">
+                        <h1 class="title-text" style="text-align: left; padding-left: 20px;">
+                            EVENT #1, SCRATCH COURSE
+                        </h1>
+                        <p class="programme-p" style="text-align: left; padding-left: 20px; @media only screen and (min-width: 768px) {font-size: 1vw;} @media only screen and (max-width: 768px) {font-size: 5vw;}" >
+                            <b>Time: </b>
+                            <br>
+                            21 November 2022: 2pm-3.15 pm 
+                            <br>
+                            23, 24, 25 November 2022: 10 am-11.15 am 
+                            (Additional 30 minutes on Friday)  
+                            <br>
+                            <b>Location: </b>Online via Video Conferencing 
+                            Platform 
+                            <br>
+                            <b>Allocated slots: </b><s>20</s> Sold out
+                        </p>
+                    </div>
                 </div>
-            <p>
-                You can also follow us on Instagram,
-                <br>
-                Facebook and LinkedIn!
             </p>
-            </div>
-            <br><br>
+        </div>
+        <footer>
             <div class="flex-content">
                 <p>
                     Copyright © 2023 Kids Learn Code
